@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+"${1:RouteTblAssoc}": {
+  "Type" : "AWS::EC2::SubnetRouteTableAssociation",
+    "Properties" : {
+      "RouteTableId" : "",
+      "SubnetId" : ""
+    }
+}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cf-ec2-routetbl-ass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.cloudformation</scope>
+</snippet>

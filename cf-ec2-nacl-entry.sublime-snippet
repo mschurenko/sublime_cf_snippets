@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+"${1:NaclEntry}": {
+  "Type" : "AWS::EC2::NetworkAclEntry",
+    "Properties" : {
+      "NetworkAclId" : "",
+      "CidrBlock" : "",
+      "Egress" : "false",
+      "Protocol" : "",
+      "RuleAction" : "",
+      "RuleNumber" : ""
+    }
+}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cf-ec2-nacl-entry</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.cloudformation</scope>
+</snippet>

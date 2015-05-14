@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+"${1:Route}": {
+  "Type": "AWS::EC2::Route",
+    "Properties": {
+      "DestinationCidrBlock": "",
+      "RouteTableId": "",
+      "GatewayId": { "Ref" : "InternetGateway" }
+    }
+}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cf-ec2-route</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.cloudformation</scope>
+</snippet>
