@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#jinja2:lstrip_blocks:False,trim_blocks:False
+{# cf template #}
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+
+  "Description": "",
+
+  "Parameters": {
+  
+  },
+
+  "Resources": {
+
+  },
+  
+  "Outputs": {
+
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cf</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jinja</scope>
+</snippet>

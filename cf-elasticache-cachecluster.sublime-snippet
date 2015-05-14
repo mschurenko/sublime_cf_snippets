@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+"${1:CacheCluster}": {
+  "Type" : "AWS::ElastiCache::CacheCluster",
+    "Properties" : {
+      "Engine": "",
+      "CacheNodeType" : "",
+      "CacheSubnetGroupName" : "",
+      "NumCacheNodes" : "",
+      "VpcSecurityGroupIds" : []
+  }
+}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cf-elasticache-cachecluster</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.cloudformation</scope>
+</snippet>

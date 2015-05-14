@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+---
+- hosts: localhost
+
+  vars_files:
+  - var_files/_defaults.yml
+  - var_files/_globals.yml
+
+  vars:
+    env: <env>
+    app_type: <type>
+    tag_prefix: "{{ env }}"
+
+  tasks:
+
+  - name: set vars for <type> template
+    tags: render-<type>
+    set_fact:
+      cf_deps:
+      segments:
+      chef:
+      ec2:
+      elb:
+
+  - name: render <type> template
+    tags: render-<type>
+    template: src=templates/jinja/<template>.j2 dest=templates/json/{{ app_type }}.json
+
+  - name: <type> stack
+    tags: <type>
+    tri_cloudformation:
+      region: "{{ _globals.aws_region }}"
+      state: create
+      stack_name: "{{ env }}{{ app_type | title }}"
+      template: templates/json/{{ app_type }}.json
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Ansible</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ansible</scope>
+</snippet>
