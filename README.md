@@ -1,2 +1,2 @@
-##### sublime_cf_snippets
+### sublime_cf_snippets
 snippets for AWS CloudFormation
