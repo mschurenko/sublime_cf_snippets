@@ -5,7 +5,7 @@
     "Properties": {
       "DestinationCidrBlock": "",
       "RouteTableId": "",
-      "GatewayId": { "Ref" : "InternetGateway" }
+      "GatewayId": ""
     }
 }
 
