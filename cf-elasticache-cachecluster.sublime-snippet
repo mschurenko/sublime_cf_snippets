@@ -1,13 +1,13 @@
 <snippet>
   <content><![CDATA[
 "${1:CacheCluster}": {
-  "Type" : "AWS::ElastiCache::CacheCluster",
-    "Properties" : {
+  "Type": "AWS::ElastiCache::CacheCluster",
+    "Properties": {
       "Engine": "",
-      "CacheNodeType" : "",
-      "CacheSubnetGroupName" : "",
-      "NumCacheNodes" : "",
-      "VpcSecurityGroupIds" : []
+      "CacheNodeType": "",
+      "CacheSubnetGroupName": "",
+      "NumCacheNodes": "",
+      "VpcSecurityGroupIds": []
   }
 }
 

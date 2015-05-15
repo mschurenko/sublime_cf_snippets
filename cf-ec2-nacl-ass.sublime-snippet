@@ -2,9 +2,9 @@
   <content><![CDATA[
 "${1:NaclAssoc}": {
   "Type": "AWS::EC2::SubnetNetworkAclAssociation",
-      "Properties" : {
-        "SubnetId" : "",
-        "NetworkAclId" : ""
+      "Properties": {
+        "SubnetId": "",
+        "NetworkAclId": ""
       }
 }
 

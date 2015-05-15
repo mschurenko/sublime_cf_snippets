@@ -4,14 +4,14 @@
   "Type": "AWS::EC2::SecurityGroup",
     "Properties": {
       "VpcId": "",
-      "GroupDescription" : "",
-       "SecurityGroupIngress" : [
+      "GroupDescription": "",
+       "SecurityGroupIngress": [
           {
-            "IpProtocol" : "",
-            "CidrIp" : ""
+            "IpProtocol": "",
+            "CidrIp": ""
           }
        ],
-      "Tags" : [ { "Key" : "Name", "Value" : "" } ]
+      "Tags": [ { "Key" : "Name", "Value" : "" } ]
      }
 }
 

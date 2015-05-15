@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 "${1:RouteTblAssoc}": {
-  "Type" : "AWS::EC2::SubnetRouteTableAssociation",
-    "Properties" : {
-      "RouteTableId" : "",
-      "SubnetId" : ""
+  "Type": "AWS::EC2::SubnetRouteTableAssociation",
+    "Properties": {
+      "RouteTableId": "",
+      "SubnetId": ""
     }
 }
 

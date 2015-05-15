@@ -3,10 +3,10 @@
 "${1:Instance}": {
   "Type": "AWS::EC2::Instance",
     "Properties": {
-      "ImageId": "{{ ec2.ami }}",
-      "InstanceType": "{{ ec2.instance_type }}",
-      "KeyName": "{{ ec2.key_pair | default(_globals.key_pair) }}",
-      "IamInstanceProfile": "{{ chef.role }}",
+      "ImageId": "",
+      "InstanceType": "",
+      "KeyName": "",
+      "IamInstanceProfile": "",
       "UserData": { "Fn::Base64": { "Fn::Join": [ "", 
           {% include ec2.user_data %}
         ]

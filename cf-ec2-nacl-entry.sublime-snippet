@@ -1,14 +1,14 @@
 <snippet>
   <content><![CDATA[
 "${1:NaclEntry}": {
-  "Type" : "AWS::EC2::NetworkAclEntry",
-    "Properties" : {
-      "NetworkAclId" : "",
-      "CidrBlock" : "",
-      "Egress" : "false",
-      "Protocol" : "",
-      "RuleAction" : "",
-      "RuleNumber" : ""
+  "Type": "AWS::EC2::NetworkAclEntry",
+    "Properties": {
+      "NetworkAclId": "",
+      "CidrBlock": "",
+      "Egress": "false",
+      "Protocol": "",
+      "RuleAction": "",
+      "RuleNumber": ""
     }
 }
 

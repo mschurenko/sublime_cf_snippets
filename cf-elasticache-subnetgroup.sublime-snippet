@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 "${1:ElasticCacheSubnetGroup}": {
-  "Type" : "AWS::ElastiCache::SubnetGroup",
-    "Properties" : {
-      "Description" : "",
-      "SubnetIds" : []
+  "Type": "AWS::ElastiCache::SubnetGroup",
+    "Properties": {
+      "Description": "",
+      "SubnetIds": []
   }
 }
 

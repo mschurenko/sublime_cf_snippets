@@ -5,8 +5,8 @@
     "Properties": {
       "AvailabilityZone": "",
       "CidrBlock" : "", 
-      "VpcId" : "",
-      "Tags" : [ { "Key" : "Name", "Value" :  "" } ] 
+      "VpcId": "",
+      "Tags": [ { "Key" : "Name", "Value" :  "" } ] 
     }
 }
 

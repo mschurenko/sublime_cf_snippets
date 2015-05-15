@@ -2,13 +2,13 @@
   <content><![CDATA[
 "${1:LaunchConfig}": {
   "LaunchConfig": {
-    "Type" : "AWS::AutoScaling::LaunchConfiguration",
-      "Properties" : {
-        "IamInstanceProfile" : "web-app-tier",
-        "ImageId" : "ami-63d3f953",
-        "InstanceType" : "m3.large",
-        "KeyName" : "shomi_prod_us_west_2",
-        "SecurityGroups" : [ "sg-b48388d1" ],
+    "Type": "AWS::AutoScaling::LaunchConfiguration",
+      "Properties": {
+        "IamInstanceProfile": "",
+        "ImageId": "",
+        "InstanceType": "",
+        "KeyName": "",
+        "SecurityGroups": [],
         "UserData" : {
           "Fn::Base64": 
         {   "Fn::Join": [

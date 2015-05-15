@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 "${1:RouteTbl}": {
-  "Type" : "AWS::EC2::RouteTable",
-    "Properties" : {
-      "VpcId" : "",
-      "Tags" : [ { "Key" : "Name", "" } ]
+  "Type": "AWS::EC2::RouteTable",
+    "Properties": {
+      "VpcId": "",
+      "Tags": [ { "Key" : "Name", "" } ]
     }
 }
 
